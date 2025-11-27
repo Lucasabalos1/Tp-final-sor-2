@@ -11,6 +11,8 @@ Antes de comenzar, asegúrese de que:
 * Crear el .env e instalar las dependencias necesarias
 
 ```bash
+python -m venv .venv
+source .venv/bin/activate
 pip install tensorflow numpy pandas scikit-learn netfilterqueue scapy requests
 ```
 
