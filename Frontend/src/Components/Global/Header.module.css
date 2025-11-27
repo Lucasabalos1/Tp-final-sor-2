@@ -1,0 +1,39 @@
+nav{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #0A192F;
+    color: #fff;
+}
+
+.rowHeaderContent{
+    display: flex;
+    width: 90%;
+    padding: 5px 0;
+    margin: 0  auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hamburgerContainer{
+    padding: 6px 10px;
+    border: 1px solid #fff;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    background-color: #121212;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+
+.titleContainer h1{
+    font-size: 1.4rem;
+}
+
+
+@media (min-width: 900px) {
+   .rowHeaderContent{
+        width: 95%;
+   }
+   
+}

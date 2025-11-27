@@ -1,0 +1,85 @@
+.modalBackground{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s all linear;
+    z-index: 3;
+}
+
+.showBackground{
+    opacity: 1;
+    visibility: visible;
+}
+.navbarContainer{
+    width: 300px;
+    height: 100%;
+    position: relative;
+    left: 0;
+    top: 0;
+    background: #121212;
+    transform: translateX(-300px);
+    opacity: 0;
+    visibility: hidden;
+    transition:  0.5s all linear;
+    overflow-y: auto;
+}
+
+.showNavbar{
+    transform: translateX(0px);
+    opacity: 1;
+    visibility: visible
+}
+
+.closeModalContainer{
+    text-align: end;
+}
+
+.closeModalContainer i{
+    padding-top: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+    font-size: 1.4rem;
+}
+
+
+.pagesContainer{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.sectionContainer{
+    padding: 10px 0;
+}
+
+.sectionNavListContainer{
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.sectionNavContainer{
+    padding: 5px 0;
+}
+
+.navLink{
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    transition: 0.3s all linear;
+}
+
+.navLink:hover{
+    color: #d0D0D0;
+    text-decoration: underline;
+    /* text-shadow: 0px 0px 2px #fff; */
+}
+
+.navLink h3{
+    padding-left: 6px;
+    font-size:1.4rem ;
+}
