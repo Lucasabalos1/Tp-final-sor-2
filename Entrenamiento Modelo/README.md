@@ -68,4 +68,6 @@ sudo /home/alumno/tpFInal/.venv/bin/python /home/alumno/tpFInal/ids_runtime.py
 ```
 Solo bastara enviar el ataque desde otra VM y ver los resultados, tambien funciona realizando el ataque desde la misma VM
 
+Para una mejor experiencia es recomendable tambien tener levantado el frontend para ver la actualizacion a tiempo real
+
 
